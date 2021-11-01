@@ -5,7 +5,7 @@ The folder contains three execution files:
 3) bspline_path_planner_minimal_length: a Bspline path planner in a predefined sequence of polytopes. The objective is to minimize the integral of the square of velocity. 
 
 
-Folder poly_decomp contains the libarary for decomposing a polygon into polytopes.
+Folder poly_decomp contains the libarary for decomposing a polygon into polytopes and folder navigation_bspline contains some transformation matrices used for calculating derivatives of B-spline and data used for calculating the approximation of the curve's length. 
 
 Installation guild:
 1) Install Anaconda environment from https://www.anaconda.com/
