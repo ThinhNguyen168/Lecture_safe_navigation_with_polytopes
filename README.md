@@ -18,7 +18,8 @@ Installation guild:
 9) pip install gdspy
 10) pip install matplotlib 
 
-Paper describing the approach:
+Paper:
+
 Ngoc Thinh Nguyen, et al. B-spline path planner for safe navigation of mobile robots, in 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 316-322, 2021.
 
 
