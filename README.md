@@ -7,7 +7,7 @@ The folder contains three execution files:
 
 Folder poly_decomp contains the libarary for decomposing a polygon into polytopes and folder navigation_bspline contains some transformation matrices used for calculating derivatives of B-spline and data used for calculating the approximation of the curve's length. 
 
-Installation guild:
+Installation guide:
 1) Install Anaconda environment from https://www.anaconda.com/
 2) Open Anaconda Prompt
 3) Install IPOPT solver: conda install -c conda-forge ipopt=3.11.1 
