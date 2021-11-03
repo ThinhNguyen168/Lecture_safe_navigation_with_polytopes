@@ -42,7 +42,7 @@ poly_with_hole = gdspy.boolean(ws_poly, [hole1_large, hole2_large, hole3_large],
 # decomposition
 ws = pd.polygonQuickDecomp(poly_with_hole.polygons[0])
 
-# initial and final goal
+# initial pose and final goal
 init = [1.9, 1.5]
 goal = [0.25, 1.]
 
