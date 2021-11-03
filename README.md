@@ -1,4 +1,4 @@
-# Lecture on safe navigation with polytopes
+# Safe navigation with polytopes
 The folder contains three execution files:
 1) laserscan_reading: to read a laser scan data (samples can be found in test_data) and create a polytope map within the local free space.
 2) map_reading: to read the grid map (turtle.npy in test_data) and its polytope map (poly_map_turtle.npz), then, display them together.
