@@ -69,7 +69,11 @@ decompose_result = pd.polygonQuickDecomp(offset_result)
 init = [1., 2.5]
 goal = [1.5, 0.]
 
-# TODO after
+
+""" 
+# TODO: find sequence of polytopes and implement a B-spline path planner leading from init to goal
+
+"""
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
