@@ -12,11 +12,12 @@ Installation guide:
 2) Open Anaconda Prompt
 3) Install IPOPT solver: conda install -c conda-forge ipopt=3.11.1 
 5) Install Pyomo interface: conda install -c conda-forge pyomo 
-6) pip install numpy 
-7) pip install scipy 
-8) pip install rdp 
-9) pip install gdspy
-10) pip install matplotlib 
+6) pip install math
+7) pip install numpy 
+8) pip install scipy 
+9) pip install rdp 
+10) pip install gdspy
+11) pip install matplotlib 
 
 Paper:
 
