@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from __future__ import division
+#from __future__ import division
 import math
 
 def lineInt(l1, l2, precision=0):
