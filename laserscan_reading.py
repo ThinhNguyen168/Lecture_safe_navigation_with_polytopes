@@ -40,7 +40,7 @@ def plot_poly_map(ws, ax, col):
 
 ###     Part 1: extract local coordinates of obstacles
 # load data
-raw_scan_range = np.loadtxt('./test_data/scan_data_3.dat')
+raw_scan_range = np.loadtxt('./test_data/scan_data_4.dat')
 # sensor info
 range_min = 0.12 # in meters
 range_max = 3.5 # in meters

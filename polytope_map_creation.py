@@ -64,6 +64,7 @@ sequence = generate_sequence(ws, init, goal)
 sequence = [4, 5, 6, 8]
 
 
+
 fig = plt.figure()
 ax = fig.add_subplot(111)
 plot_poly_map(ws, ax, 'black')
