@@ -40,7 +40,7 @@ def plot_poly_map(ws, ax, col):
 
 ###     Part 1: extract local coordinates of obstacles
 # load data
-raw_scan_range = np.loadtxt('./test_data/scan_data_4.dat')
+raw_scan_range = np.loadtxt('./test_data/scan_data_1.dat')
 # sensor info
 range_min = 0.12 # in meters
 range_max = 3.5 # in meters
@@ -55,7 +55,7 @@ y_rdp = simplification_result_np[:, 1]
 
 ###     Part 3: Create outer polygon and making offset
 P = gdspy.Polygon(simplification_result)
-offset_distance = 0.1 # in meters
+offset_distance = 0.15 # in meters
 offset_operation = gdspy.offset(P, - offset_distance)
 offset_result = offset_operation.polygons[0]
 # adding the first element at the end to close the boundary for plotting
@@ -64,7 +64,7 @@ offset_result_plot = np.append(offset_result, [offset_result[0]], axis = 0)
 ###     Part 4: Decompose outer polygon into connected polytopes
 decompose_result = pd.polygonQuickDecomp(offset_result)
 
-
+np.savez('map_1.npz', polytope_map=decompose_result, dtype=object)
 # Initial and final poses:
 init = [1., 2.5]
 goal = [1.5, 0.]
