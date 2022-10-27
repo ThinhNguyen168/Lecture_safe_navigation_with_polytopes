@@ -19,9 +19,12 @@ Installation guide:
 10) pip install gdspy
 11) pip install matplotlib 
 
-Paper:
+Papers:
 
 Ngoc Thinh Nguyen, et al. B-spline path planner for safe navigation of mobile robots, in Proceedings of 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 316-322, 2021.
+
+Ngoc Thinh Nguyen, and Georg Schildbach. Tightening polytopic constraint in MPC designs for mobile robot navigation, in Proceedings of 25th International Conference on System Theory, Control and Computing (ICSTCC), 407-412, 2021. **Best Paper Award**. 
+
 
 
 
